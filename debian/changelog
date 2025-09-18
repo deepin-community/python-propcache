@@ -1,5 +1,17 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-propcache (0.3.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 0.3.1.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Tianyu Chen <billchenchina2001@gmail.com>  Wed, 02 Apr 2025 20:02:29 +0800
+
+python-propcache (0.3.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1091449)
+  * Run wrap-and-sort -bastk.
+  * Move to python-team/packages.
+  * Use dh-sequence-python3 instead of dh-python.
+  * Run pytest during build.
+  * Add autopkgtest.
+  * Use autopkgtest-pkg-pybuild instead of d/tests/control.
+
+ -- Tianyu Chen <billchenchina2001@gmail.com>  Wed, 19 Mar 2025 20:58:52 +0800
